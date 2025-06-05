@@ -1,0 +1,96 @@
+# General
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+*.log # Ignore log files anywhere
+logs/ # Ignore logs directory
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar # Typically ignored, download if needed. If you rely on it, remove this line.
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+/bin/
+
+# IDEs
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/ # NetBeans/Gradle build directory
+
+# VS Code
+.vscode/
+
+# Spring Boot specific
+# Dev Tools (if enabled)
+.dev-tools/
+
+# Database files (local, embedded)
+*.mv.db # H2 Database file
+*.trace.db # H2 Database trace file
+db/ # If you store local DB files here
+
+# Configuration files (IMPORTANT: HANDLE SENSITIVE DATA)
+# If your application.properties/yml contains sensitive data (passwords, API keys for production),
+# consider ignoring the production specific profile and keeping dev config:
+# Example:
+# application-prod.properties
+# application-prod.yml
+# Or if all sensitive data is in the main one and you use ENV vars for production:
+# application.properties
+# application.yml
+# For now, I'll recommend ignoring all to be safe, but customize as needed.
+src/main/resources/application*.properties
+src/main/resources/application*.yml
+!src/main/resources/application-example.properties # If you have a template
+!src/main/resources/application-example.yml # If you have a template
+
+# Or, if you keep common config in application.properties/yml but secrets in .env
+.env
+.env.local
+.env.development
+.env.production
+
+# Compiled files and caches
+*.bak
+*.swp
+*.orig
+*.log
+
+# Test results
+/test-results/
+
+# Anything else you want to ignore:
+# mysecretfile.txt
