@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>SpringBootProject</artifactId>
+	<artifactId>hardstyle_hub_backend</artifactId> 
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootProject</name>
-	<description>Demo project for Spring Boot</description>
+	<name>hardstyle_hub_backend</name>
+	<description>Hardstyle Hub Backend Application</description>
 	<url/>
 	<licenses>
 		<license/>
